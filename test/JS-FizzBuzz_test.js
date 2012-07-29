@@ -40,7 +40,6 @@ exports['FizzBuzz'] = {
       test.equal( value, fizzBuzz, 'arr[' + i + '] should be ' + fizzBuzz );
 
     });
-
     
     test.done();
 
