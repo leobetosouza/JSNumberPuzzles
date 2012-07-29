@@ -5,6 +5,7 @@ The best project ever.
 ```javascript
 var JS_FizzBuzz = require('JS-FizzBuzz');
 JS_FizzBuzz.FizzBuzz(); // Will print an array of 100 FizzBuzz \m/
+//[ 1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', 16, ... , 98, 'Fizz', 'Buzz' ]
 
 //If pass a number as parameter will print the FizzBuzz of that
 
