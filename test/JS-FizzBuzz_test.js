@@ -43,5 +43,18 @@ exports['FizzBuzz'] = {
     
     test.done();
 
+  },
+  'Kafifa!': function(test) {
+
+    test.expect(6);
+    // tests here
+    test.equal(JS_FizzBuzz.Kafifa(1), 1, '1 should be 1.');
+    test.equal(JS_FizzBuzz.Kafifa(7), 'Kafifa!', '7 should be Kafifa!');
+    test.equal(JS_FizzBuzz.Kafifa(14), 'Kafifa!', '14 should be Kafifa!');
+    test.equal(JS_FizzBuzz.Kafifa(17), 'Kafifa!', '17 should be Kafifa!');
+    test.equal(JS_FizzBuzz.Kafifa(27), 'Kafifa!', '27 should be Kafifa!');
+    test.equal(JS_FizzBuzz.Kafifa(30), 30, '30 should be 30');
+
+    test.done();
   }
 };
