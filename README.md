@@ -47,6 +47,7 @@ NumberPuzzles.BizzBuzzWoof( 5 ); //'Buzz!'
 NumberPuzzles.BizzBuzzWoof( 7 ); //'Woof!'
 NumberPuzzles.BizzBuzzWoof( 15 ); //'Bizz! Buzz! Buzz!'
 NumberPuzzles.BizzBuzzWoof( 50 ); //'Buzz! Buzz!'
+NumberPuzzles.BizzBuzzWoof( 57 ); //'Bizz! Buzz! Woof!'
 NumberPuzzles.BizzBuzzWoof( 70 ); //'Buzz! Woof! Woof!'
 NumberPuzzles.BizzBuzzWoof( 105 ); //'Bizz! Buzz! Buzz! Woof!'
 ```
