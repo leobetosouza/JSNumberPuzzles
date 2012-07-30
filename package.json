@@ -1,7 +1,7 @@
 {
   "name": "JS-FizzBuzz",
-  "description": "The best project ever.",
-  "version": "0.1.0",
+  "description": "Simple implementations of some Number Puzzles in Node.js, using TDD. Just for study.",
+  "version": "0.3.0",
   "homepage": "https://github.com/leobetosouza/JS-FizzBuzz",
   "author": {
     "name": "Leonardo Alberto Souza",
@@ -16,8 +16,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/leobetosouza/JS-FizzBuzz/blob/master/LICENSE-MIT"
+      "type": "WTF-PL",
+      "url": "https://github.com/leobetosouza/JS-FizzBuzz/blob/master/WTF-PL"
     }
   ],
   "dependencies": {},
