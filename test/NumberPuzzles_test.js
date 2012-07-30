@@ -61,43 +61,43 @@ exports['NumberPuzzles'] = {
 
     //test.expect(6);
     // tests here
-    test.equal(NumberPuzzles.FizzBuzzWoof(1), 1, '1 should be 1.');
-    test.equal(NumberPuzzles.FizzBuzzWoof(2), 2, '2 should be 2.');
-    test.equal(NumberPuzzles.FizzBuzzWoof(11), 11, '11 should be 11.');
-    test.equal(NumberPuzzles.FizzBuzzWoof(26), 26, '26 should be 11.');
-    test.equal(NumberPuzzles.FizzBuzzWoof(3), 'Bizz!', '3 should be Fizz!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(5), 'Buzz!', '5 should be Buzz!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(7), 'Woof!', '7 should be Woof!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(17), 'Woof!', '17 should be Woof!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(28), 'Woof!', '28 should be Woof!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(51), 'Bizz! Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(1), 1, '1 should be 1.');
+    test.equal(NumberPuzzles.BizzBuzzWoof(2), 2, '2 should be 2.');
+    test.equal(NumberPuzzles.BizzBuzzWoof(11), 11, '11 should be 11.');
+    test.equal(NumberPuzzles.BizzBuzzWoof(26), 26, '26 should be 11.');
+    test.equal(NumberPuzzles.BizzBuzzWoof(3), 'Bizz!', '3 should be Fizz!');
+    test.equal(NumberPuzzles.BizzBuzzWoof(5), 'Buzz!', '5 should be Buzz!');
+    test.equal(NumberPuzzles.BizzBuzzWoof(7), 'Woof!', '7 should be Woof!');
+    test.equal(NumberPuzzles.BizzBuzzWoof(17), 'Woof!', '17 should be Woof!');
+    test.equal(NumberPuzzles.BizzBuzzWoof(28), 'Woof!', '28 should be Woof!');
+    test.equal(NumberPuzzles.BizzBuzzWoof(51), 'Bizz! Buzz!',
                                                '51 should be Bizz! Buzz!');
     
-    test.equal(NumberPuzzles.FizzBuzzWoof(21), 'Bizz! Woof!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(21), 'Bizz! Woof!',
                                                '21 should be Bizz! Woof!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(33), 'Bizz! Bizz! Bizz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(33), 'Bizz! Bizz! Bizz!',
                                                '33 should be Bizz! Bizz! Bizz!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(15), 'Bizz! Buzz! Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(15), 'Bizz! Buzz! Buzz!',
                                                '15 should be Bizz! Buzz! Buzz!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(30), 'Bizz! Bizz! Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(30), 'Bizz! Bizz! Buzz!',
                                                '30 should be Bizz! Bizz! Buzz!');
 
-    test.equal(NumberPuzzles.FizzBuzzWoof(50), 'Buzz! Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(50), 'Buzz! Buzz!',
                                                '50 should be Buzz! Buzz!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(55), 'Buzz! Buzz! Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(55), 'Buzz! Buzz! Buzz!',
                                                '55 should be Buzz! Buzz! Buzz!');
 
-    test.equal(NumberPuzzles.FizzBuzzWoof(70), 'Buzz! Woof! Woof!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(70), 'Buzz! Woof! Woof!',
                                                '70 should be Buzz! Woof! Woof!');
-    test.equal(NumberPuzzles.FizzBuzzWoof(77), 'Woof! Woof! Woof!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(77), 'Woof! Woof! Woof!',
                                                '77 should be Woof! Woof! Woof!');
 
-    test.equal(NumberPuzzles.FizzBuzzWoof(100), 'Buzz!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(100), 'Buzz!',
                                                '100 should be Buzz!');
-    test.equal( NumberPuzzles.FizzBuzzWoof(105),
+    test.equal( NumberPuzzles.BizzBuzzWoof(105),
                 'Bizz! Buzz! Buzz! Woof!',
                 '105 should be Bizz! Buzz! Buzz! Woof!' );
-    test.equal(NumberPuzzles.FizzBuzzWoof(0), 'Bizz! Buzz! Woof!',
+    test.equal(NumberPuzzles.BizzBuzzWoof(0), 'Bizz! Buzz! Woof!',
                                                '0 should be Bizz! Buzz! Woof!');
     test.done();
   }
