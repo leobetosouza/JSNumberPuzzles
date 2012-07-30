@@ -24,11 +24,14 @@
   "devDependencies": {
     "grunt": "~0.2.15"
   },
-  "keywords": [],
+  "keywords": [ "puzzles", "fun", "fizzbuzz" ],
   "engines": {
     "node": ">= 0.8.1"
   },
-  "main": "lib/NumberPuzzles",
+  "main": "lib/NumberPuzzles.js",
+  "bin": {
+    "NumberPuzzles": "lib/NumberPuzzles.js"
+  },
   "scripts": {
     "test": "grunt test"
   }
