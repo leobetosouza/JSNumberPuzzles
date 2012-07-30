@@ -1,23 +1,23 @@
 {
-  "name": "JS-FizzBuzz",
+  "name": "NumberPuzzles",
   "description": "Simple implementations of some Number Puzzles in Node.js, using TDD. Just for study.",
   "version": "0.3.0",
-  "homepage": "https://github.com/leobetosouza/JS-FizzBuzz",
+  "homepage": "https://github.com/leobetosouza/JSNumberPuzzles",
   "author": {
     "name": "Leonardo Alberto Souza",
     "email": "leobetosouza@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/leobetosouza/JS-FizzBuzz.git"
+    "url": "git://github.com/leobetosouza/JSNumberPuzzles.git"
   },
   "bugs": {
-    "url": "https://github.com/leobetosouza/JS-FizzBuzz/issues"
+    "url": "https://github.com/leobetosouza/JSNumberPuzzles/issues"
   },
   "licenses": [
     {
       "type": "WTF-PL",
-      "url": "https://github.com/leobetosouza/JS-FizzBuzz/blob/master/WTF-PL"
+      "url": "https://github.com/leobetosouza/JSNumberPuzzles/blob/master/WTF-PL"
     }
   ],
   "dependencies": {},
@@ -28,7 +28,7 @@
   "engines": {
     "node": ">= 0.8.1"
   },
-  "main": "lib/JS-FizzBuzz",
+  "main": "lib/NumberPuzzles",
   "scripts": {
     "test": "grunt test"
   }
